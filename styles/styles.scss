@@ -1,0 +1,19 @@
+/**
+ * App entry scss file using bootstrap and AdminLTE v2
+ *
+ * @url https://getbootstrap.com/docs/4.0/getting-started/theming/
+ * @url https://getbootstrap.com/docs/4.0/getting-started/webpack/#importing-precompiled-sass
+
+@import '~bootstrap/scss/bootstrap';
+@import "~admin-lte/build/scss/_adminlte.raw.scss";
+*/
+$color: blue;
+h1 {
+  color: $color;
+}
+
+.color-palette {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
