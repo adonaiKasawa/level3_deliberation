@@ -16,7 +16,7 @@ const AdminLayout = ({children}: Props) => {
   const Auth = useAppSelector(selectAuth);
   const router = useRouter();
   useEffect(() => {
-    if(!Auth.isAuthenticated) router.push('http://localhost:3000/login');
+    if(!Auth.isAuthenticated) router.push('http://162.254.35.36:3000/login');
   })
   return (
     <>
