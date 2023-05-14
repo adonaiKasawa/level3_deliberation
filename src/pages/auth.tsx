@@ -23,7 +23,6 @@ const auth = () => {
             }
         },3000)
     })
-
     return <>
         <div className="col-8 offset-2 mt-5">
             <div className="align-center">
@@ -32,7 +31,7 @@ const auth = () => {
             <div>
                 <p>vous allez être connecter dans 5sec</p>
                 <p>si vous etes pas rediriger automatimant apres 5sec cliquez 
-                    <Link href="http://localhost:3000/login">
+                    <Link href="http://162.254.35.36:3000/login">
                         <a>login</a>
                     </Link>
                 </p>
